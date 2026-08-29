@@ -1,18 +1,18 @@
 import express from "express";
 
+import { posts } from "./posts.js";
+
 const app = express();
 const port = 3000;
 
+app.use(express.static("./public"));
+
 app.get("/", (req, res) => {
-  // con .type() specifichiamo il tipo di dato che inviamo (non necessario specificare html se .send(), visto che é il tipo di default)
-  res.type("html").send("<h1>Server del mio blog!</h1>");
+  res.redirect("/client/index.html");
+});
 
-  //res.download("./public/images/ciambellone.jpeg");
-
-  //res.redirect("/altra-pagina");
-
-  //.json() é una scorciatoia per .type("json")
-  //res.json({ messaggino: "Server del mio blog!", tipo: "JSON!" });
+app.get("/bacheca", (req, res) => {
+  res.json(posts);
 });
 
 app.listen(port, () => {

@@ -4,7 +4,7 @@ export const posts = [
     title: "Ciambellone",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore nisi repellendus, tempora at animi?",
-    img: "",
+    img: "images/ciambellone.jpeg",
     tags: ["dolci", "allergeni", "tea-time"],
   },
   {
@@ -12,7 +12,7 @@ export const posts = [
     title: "Cracker alla barbabietola",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore nisi repellendus, tempora at animi?",
-    img: "",
+    img: "images/cracker_barbabietola.jpeg",
     tags: ["salati", "vegan", "allergeni"],
   },
   {
@@ -20,7 +20,7 @@ export const posts = [
     title: "Pane fritto dolce",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore nisi repellendus, tempora at animi?",
-    img: "",
+    img: "images/pane_fritto_dolce.jpeg",
     tags: ["dolci", "vegan", "ipercalorici"],
   },
   {
@@ -28,7 +28,7 @@ export const posts = [
     title: "Pasta alla barbabietola",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore nisi repellendus, tempora at animi?",
-    img: "",
+    img: "images/pasta_barbabietola.jpeg",
     tags: ["salati", "vegan", "allergeni"],
   },
   {
@@ -36,7 +36,7 @@ export const posts = [
     title: "Torta paesana",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolore nisi repellendus, tempora at animi?",
-    img: "",
+    img: "images/torta_paesana.jpeg",
     tags: ["dolci", "allergeni", "tea-time"],
   },
 ];
